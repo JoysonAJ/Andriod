@@ -23,16 +23,16 @@ public class HomePage extends AppCompatActivity {
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HomePage.this,MainActivity.class);
-                startActivity(intent);
+//                Intent intent = new Intent(HomePage.this,MainActivity.class);
+//                startActivity(intent);
             }
         });
 
         framentButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(HomePage.this,Fragment1.class);
-                startActivity(intent);
+                Intent intent1 = new Intent(HomePage.this,Fragment1.class);
+                startActivity(intent1);
             }
         });
     }
